@@ -710,8 +710,18 @@ sub parse_source_file {
 
     # Parsing the file
 
+
+    # if there's a segmentation callback plugin enabled, use a segmentation-aware
+    # callback; otherwise, use a regular one, so that it won't have to check
+    # for segmentation for each extracted unit
+
+    my $callback_sub = sub { $self->parse_source_file_callback(@_) };
+    if ($self->{job}->has_callbacks('segment_source')) {
+        $callback_sub = sub { $self->parse_source_file_segmentation_callback(@_) };
+    }
+
     eval {
-        $self->{job}->{parser_object}->parse(\$src, sub { $self->parse_source_file_callback(@_) });
+        $self->{job}->{parser_object}->parse(\$src, $callback_sub);
     };
 
     if ($@) {
@@ -820,6 +830,30 @@ sub disambiguate_string {
     $self->{current_file_keys}->{$key} = $source_key;
 
     return $context;
+}
+
+sub parse_source_file_segmentation_callback {
+    my ($self, $string, $context, $hint, $flagsref, $lang, $key) = @_;
+
+    # if segment_source callback returns any scalar value,
+    # it will be auto-converted to a one-item array, which will mean
+    # no segmentation is necessary
+    my @a = $self->run_callbacks('segment_source', $string);
+
+    # if no segmentation was performed (only one or zero segment is returned),
+    # run the regular callback with the original parameters;
+    # the originally returned segmentation value is discarded
+    if (scalar(@a) <= 1) {
+        parse_source_file_callback(@_); # $self is passed via @_ here
+        return;
+    }
+
+    # otherwise, run the regular callback for each returned segment
+    my $n = 0;
+    map {
+        $n++;
+        $self->parse_source_file_callback($_, $context, $hint, $flagsref, $lang, $key.':'.$n);
+    } @a;
 }
 
 sub parse_source_file_callback {

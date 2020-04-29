@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: test\n"
+"Generated-By: Serge 1.4\n"
+
+#. string1
+#: File: strings.ini
+#: ID: bf897b18b45a8a2c2029a5ceb57d3cb4
+msgid "OK"
+msgstr "ŐĶ"
+
+#. string2
+#: File: strings.ini
+#: ID: 2fdea6b7c16fb81dc680510d695992c2
+msgid "Cancel"
+msgstr "Ćáŋçēļ"
+
+#. string3
+#: File: strings.ini
+#: ID: 46faa2f6c0cd3e9480e13db2d79ab801
+msgid "Lorem ispsum dolor sit amet"
+msgstr "Łőŕēḿ ĩšṕšũḿ đőļőŕ šĩţ áḿēţ"
+
+#. string4
+#: File: strings.ini
+#: ID: deeb9593cba1b68c979574341d22e4b8
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Łőŕēḿ ĩṕšũḿ đőļőŕ šĩţ áḿēţ, çőŋšēçţēţũŕ áđĩṕĩšçĩŋğ ēļĩţ."
+
+#. string4
+#: File: strings.ini
+#: ID: 7a43fa44f6821a9ccce12607840af689
+msgid "Sed vel enim felis."
+msgstr "Šēđ ṽēļ ēŋĩḿ ḟēļĩš."
+
+#. string5
+#: File: strings.ini
+#: ID: fb2db2c7d48ffdb800be8fe5cc9392ac
+msgid ""
+"Ut est orci, bibendum ut mi ut, feugiat gravida ligula. <strong>Curabitur "
+"auctor eget leo a rutrum.</strong> Suspendisse tempor velit id dui volutpat "
+"condimentum."
+msgstr ""
+"Ůţ ēšţ őŕçĩ, ḃĩḃēŋđũḿ ũţ ḿĩ ũţ, ḟēũğĩáţ ğŕáṽĩđá ļĩğũļá. <strong>Ćũŕáḃĩţũŕ "
+"áũçţőŕ ēğēţ ļēő á ŕũţŕũḿ.</strong> Šũšṕēŋđĩššē ţēḿṕőŕ ṽēļĩţ ĩđ đũĩ ṽőļũţṕáţ "
+"çőŋđĩḿēŋţũḿ."
+
+#. string6
+#: File: strings.ini
+#: ID: 16e180f6aa2ae7552a0474243fa3828f
+msgid ""
+"Proin in odio odio. {FOO}Curabitur quis arcu iaculis, convallis quam ac, "
+"dictum eros.{/FOO} Phasellus sollicitudin consequat risus, id eleifend "
+"risus dapibus in."
+msgstr ""
+"Ṕŕőĩŋ ĩŋ őđĩő őđĩő. {ḞŐŐ}Ćũŕáḃĩţũŕ ǫũĩš áŕçũ ĩáçũļĩš, çőŋṽáļļĩš ǫũáḿ áç, "
+"đĩçţũḿ ēŕőš.{/ḞŐŐ} Ṕĥášēļļũš šőļļĩçĩţũđĩŋ çőŋšēǫũáţ ŕĩšũš, ĩđ ēļēĩḟēŋđ "
+"ŕĩšũš đáṕĩḃũš ĩŋ."
+
+#. string6
+#: File: strings.ini
+#: ID: 8fde9342fd978b95f5d88ab391141a04
+msgid "Quisque porta porttitor condimentum."
+msgstr "Ωũĩšǫũē ṕőŕţá ṕőŕţţĩţőŕ çőŋđĩḿēŋţũḿ."
+
+#. string6
+#: File: strings.ini
+#: ID: 41cb9319f662cbfc86e31bcb332914e7
+msgid "Phasellus aliquam dapibus dolor, et mattis turpis lobortis vitae."
+msgstr "Ṕĥášēļļũš áļĩǫũáḿ đáṕĩḃũš đőļőŕ, ēţ ḿáţţĩš ţũŕṕĩš ļőḃőŕţĩš ṽĩţáē."
+
+#. string6
+#: File: strings.ini
+#: ID: 3d85da00da1fcd431f662215d8711da6
+msgid "Nulla facilisi."
+msgstr "Ņũļļá ḟáçĩļĩšĩ."
+
+#. string6
+#: File: strings.ini
+#: ID: c9c78697282bb7308da1e67d0f783389
+msgid "In ut bibendum orci."
+msgstr "Ĩŋ ũţ ḃĩḃēŋđũḿ őŕçĩ."
+
+#. string6
+#: File: strings.ini
+#: ID: 6d3e22712139c0ad8f238bd2f6833de3
+msgid "Sed mi eros, efficitur vel ligula vitae, lobortis rhoncus libero."
+msgstr "Šēđ ḿĩ ēŕőš, ēḟḟĩçĩţũŕ ṽēļ ļĩğũļá ṽĩţáē, ļőḃőŕţĩš ŕĥőŋçũš ļĩḃēŕő."
+
+#. string6
+#: File: strings.ini
+#: ID: ff2a3a5e4a446416b808090b125bdd5d
+msgid ""
+"Suspendisse maximus, lectus et feugiat venenatis, libero est vestibulum "
+"justo, in tempor massa erat non libero."
+msgstr ""
+"Šũšṕēŋđĩššē ḿáҳĩḿũš, ļēçţũš ēţ ḟēũğĩáţ ṽēŋēŋáţĩš, ļĩḃēŕő ēšţ ṽēšţĩḃũļũḿ "
+"ĵũšţő, ĩŋ ţēḿṕőŕ ḿáššá ēŕáţ ŋőŋ ļĩḃēŕő."
+
+#. string6
+#: File: strings.ini
+#: ID: cee4e35b984fb08508789e623c0881d1
+msgid "Etiam arcu nibh, ultricies id faucibus in, convallis eu diam."
+msgstr "Ēţĩáḿ áŕçũ ŋĩḃĥ, ũļţŕĩçĩēš ĩđ ḟáũçĩḃũš ĩŋ, çőŋṽáļļĩš ēũ đĩáḿ."
+
+#. string6
+#: File: strings.ini
+#: ID: 8b22c894642abc01ed479c782683a2e4
+msgid "Phasellus facilisis sed metus vitae ornare."
+msgstr "Ṕĥášēļļũš ḟáçĩļĩšĩš šēđ ḿēţũš ṽĩţáē őŕŋáŕē."
+
+#. string6
+#: File: strings.ini
+#: ID: d91062a91a92563a314f08c0d5e2c37a
+msgid ""
+"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere "
+"cubilia Curae; Vivamus posuere ut mi et mattis."
+msgstr ""
+"Ṽēšţĩḃũļũḿ áŋţē ĩṕšũḿ ṕŕĩḿĩš ĩŋ ḟáũçĩḃũš őŕçĩ ļũçţũš ēţ ũļţŕĩçēš ṕőšũēŕē "
+"çũḃĩļĩá Ćũŕáē; Ṽĩṽáḿũš ṕőšũēŕē ũţ ḿĩ ēţ ḿáţţĩš."
+
+#. string6
+#: File: strings.ini
+#: ID: 1729471a791592f025adacff9aae6e1b
+msgid "Integer sed tortor porta, cursus diam eu, placerat nulla."
+msgstr "Ĩŋţēğēŕ šēđ ţőŕţőŕ ṕőŕţá, çũŕšũš đĩáḿ ēũ, ṕļáçēŕáţ ŋũļļá."
+
+#. string6
+#: File: strings.ini
+#: ID: 51f3dc23b27a9deb5a51c34b0a6fd7d7
+msgid "Mauris congue a lorem sit amet feugiat."
+msgstr "Ḿáũŕĩš çőŋğũē á ļőŕēḿ šĩţ áḿēţ ḟēũğĩáţ."
+
+#. string6
+#: File: strings.ini
+#: ID: f0ae299ac2955046cfa64dc4e6f84b88
+msgid "Sed elementum malesuada eros, sed finibus urna malesuada vel."
+msgstr "Šēđ ēļēḿēŋţũḿ ḿáļēšũáđá ēŕőš, šēđ ḟĩŋĩḃũš ũŕŋá ḿáļēšũáđá ṽēļ."
+
+#. string_url1
+#: File: strings.ini
+#: ID: acea8364a43da4157a275245c59a32cb
+msgid "http://foo.bar/baz.etc"
+msgstr "http://foo.bar/baz.etc"
+
+#. string_url2
+#: File: strings.ini
+#: ID: 7df06ff1bd505459f6c76e43a5d65be5
+msgid "mailto:foo@bar.baz"
+msgstr "mailto:foo@bar.baz"
